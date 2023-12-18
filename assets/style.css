@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.caja {
+  background-color: rgb(217, 128, 252);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo{
+    text-align: center;
+}
+
+.contenido {
+  width: 800px;
+  background-color: rgb(115, 75, 131);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.tarea {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(204, 107, 204);
+  color: rgb(243, 238, 238);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(132, 89, 156);
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.tachar {
+  text-decoration: line-through;
+}
+
+table {
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
